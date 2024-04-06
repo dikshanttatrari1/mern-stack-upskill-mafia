@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    margin: 10% 25%;
+}
+
+.img{
+    width: 90%;
+    height: 90%;
+}
+
+
+.button{
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(yellow, lightgreen);
+}
