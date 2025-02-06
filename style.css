@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 70vw;
+    background-color: white;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction:  column;
+    background-color: rgb(0, 128, 255);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.title{
+    margin-top: 100px;
+    font-family: 'Poppins';
+}
+
+.subtitle{
+    color: white;
+}
+
+.inp{
+    width: 50vw;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    color: grey;
+}
+
+.forgot-pass{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-right: 80px;
+}
+
+.login-btn{
+    width: 30vw;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.not-a-member{
+    margin-top: 30px;
+}
+
+.blue{
+    color: white;
+}
