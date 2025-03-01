@@ -3,64 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 1</title>
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
-    <div class="header">
-        <h1>Welcome to Laundary Wallah/ Laundary Mart </h1>
+
+    <div class="navbar">
+        <div class="logo-container">
+            <h1 class="thala">Thala</h1>
+            <h1 class="seven">7.</h1>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Brands</li><i id="drop-down" class="fa-solid fa-caret-down"></i>
+                <li>More</li><i id="drop-down" class="fa-solid fa-caret-down"></i>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..">
+            </div>
+            <div class="cart">
+                <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+                <p>0</p>
+            </div>
+            <div class="profile">
+                <img src="src/mee.jpeg" alt="">
+            </div>
+        </div>
     </div>
 
-    <div class="about">
-        <p>A laundry service is a business that provides washing, drying, folding, and sometimes ironing of clothing and other textiles. Customers can drop off their dirty laundry and pick it up clean and neatly folded at a later time. Some laundry services also offer dry cleaning for delicate or special garments. This can be especially useful for individuals who don't have access to laundry facilities or who simply want to save time and effort.</p>
+    <div class="hero-section">
+        <div class="left">
+            <h1>7!! Thala For a <br> <span class="orangered">Reason!!</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, aspernatur voluptas quod iure cum porro dolorum voluptatum totam corporis aperiam non hic laborum tenetur!!</p>
+            <button>Shop now!</button>
+        </div>
+        <div class="right">
+            <img src="https://img.freepik.com/premium-photo/colorful-running-fashion-sneaker-shoes-isolated-white-background_47469-290.jpg?w=1380" alt="">
+        </div>
     </div>
 
-    <div class="image">
-        <img src="https://pluspng.com/img-png/png-washing-clothes-things-your-should-know-before-buying-washing-machine-800.png" alt="laundary-img">
-    </div>
+    <div class="ratings">
 
-    <div class="services">
-        <h1>Our Services</h1>
-        <ul>
-            <li>Washing and Drying</li>
-            <li>Ironing and Folding</li>
-            <li>Dry Cleaning</li>
-            <li>Stain Removal</li>
-            <li>Express Services</li>
-            <li>Special Garment Care</li>
-            <li>and many more..</li>
-        </ul>
-    </div>
-    <div class="pricing">
-        <h1>Price List</h1>
-        <table style="border: 1px solid black; border-collapse: collapse;">
-            <tr style="border: 1px solid black; border-collapse: collapse;" >
-                <th style="border: 1px solid black; border-collapse: collapse;">Service</th>
-                <th style="border: 1px solid black; border-collapse: collapse;">Price</th>
-            </tr>
-            <tr style="border: 1px solid black; border-collapse: collapse;">
-                <th style="border: 1px solid black; border-collapse: collapse;">Washing and Drying</th>
-                <th style="border: 1px solid black; border-collapse: collapse;">$10.00</th>
-            </tr>
-            <tr style="border: 1px solid black; border-collapse: collapse;">
-                <th style="border: 1px solid black; border-collapse: collapse;">Ironing and Folding</th>
-                <th style="border: 1px solid black; border-collapse: collapse;">$5.00</th>
-            </tr>
-        </table>
-    </div>
+        <div class="reviews">
+            <div class="icons">
+                <i class="fa-regular fa-comment-dots"></i>
+            </div>
+            <div class="numbers">
+                <h1>2k+</h1>
+                <p>Reviews</p>
+            </div>
+        </div>
 
-    <div class="booknow">
-        <h1>Book Now</h1>
-        <p style="display: inline-block;">Name: </p>
-        <input type="text">
-        <p style="display: inline-block;">Email: </p>
-        <input type="text">
-        <p style="display: inline-block;">Phone: </p>
-        <input type="text">
-    </div>
+        <div class="reviews">
+            <div class="icons">
+                <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div class="numbers">
+                <h1>30k+</h1>
+                <p>Customers</p>
+            </div>
+        </div>
 
-    <div class="contact">
-        <p>Contact us at: info@laundarymart.com </p>
+        <div class="reviews">
+            <div class="icons">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="numbers">
+                <h1>High</h1>
+                <p>Quality</p>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="icons">
+                <i class="fa-solid fa-ranking-star"></i>
+            </div>
+            <div class="numbers">
+                <h1>4.5/5</h1>
+                <p>Rating</p>
+            </div>
+        </div>
+
     </div>
     
+    <div class="product-display">
+        <div class="main-section">
+            <div class="left-section">
+                <img src="https://www.pngall.com/wp-content/uploads/2/Black-Sneakers.png" alt="">
+            </div>
+            <div class="right-section">
+                <div class="description">
+                    <h1>Seven By MS Dhoni <br> Mens Mulicolor Running <br> Shoes </h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident necessitatibus magnam voluptatem officiis, ut id atque cupiditate, iure esse architecto pariatur, unde asperiores praesentium?</p>
+                </div>
+                <div class="pricing">
+                    <div class="cost">
+                        <h1>₹1,334</h1>
+                    </div>
+                    <div class="discount">
+                        <h1>Save 12%</h1>
+                        <p>Inclusive of all Taxes</p>
+                    </div>
+                </div>
+                <div class="quantity-container">
+                    <div class="quantity">
+                        <h1>2</h1>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="button-container">
+                        <i class="fa-solid fa-cart-shopping"></i> 
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section-container">
+            <div class="bottom-section">
+                <div class="pics">
+                    <img src="https://www.pngall.com/wp-content/uploads/2/Sneakers-Transparent.png" alt="">
+                </div>
+                <div class="pics">
+                    <img src="https://www.pngall.com/wp-content/uploads/2/Sneakers-Transparent.png" alt="">
+                </div>
+                <div class="pics">
+                    <img src="https://www.pngall.com/wp-content/uploads/2/Sneakers-Transparent.png" alt="">
+                </div>
+                <div class="pics">
+                    <img src="https://www.pngall.com/wp-content/uploads/2/Sneakers-Transparent.png" alt="">
+                </div>
+                <div class="pics">
+                    <img src="https://www.pngall.com/wp-content/uploads/2/Sneakers-Transparent.png" alt="">
+                </div>
+                <div class="pics">
+                    <img src="https://www.pngall.com/wp-content/uploads/2/Sneakers-Transparent.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shopping-cart">
+        <div class="heading">
+            <h1>Shopping Cart</h1>
+        </div>
+        <div class="main-shopping">
+            <div class="left-side">
+                <table>
+                    <tr>
+                        <th style="border-bottom: 2px solid grey; padding: 0px 20px; color: grey;">Product</th>
+                        <th style="border-bottom: 2px solid grey; padding: 0px 20px; color: grey;">Quantity</th>
+                        <th style="border-bottom: 2px solid grey; padding: 0px 20px; color: grey;">Price</th>
+                    </tr>
+                    <tr>
+                        <th>Seven by MS Dhoni..</th>
+                        <th>- 1 +</th>
+                        <th>₹4,999</th>
+                    </tr>
+                    <tr>
+                        <th>Seven by MS Dhoni..</th>
+                        <th>- 1 +</th>
+                        <th>₹4,999</th>
+                    </tr>
+                    <tr>
+                        <th>Seven by MS Dhoni..</th>
+                        <th>- 1 +</th>
+                        <th>₹4,999</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-side">
+                <div class="receipt">
+                    <div class="heading">
+                        <p>Enter Coupon Code</p>
+                    </div>
+                    <div class="coupon">
+                        <input type="text" placeholder="COUPON CODE">
+                        <button>Apply Coupon</button>
+                    </div>
+                    <div class="subtotal">
+                        <p>SUBTOTAL</p>
+                        <p>₹4,999</p>
+                    </div>
+                    <div class="subtotal">
+                        <p>SUBTOTAL</p>
+                        <p>₹4,999</p>
+                    </div>
+                    <div class="subtotal">
+                        <p>SUBTOTAL</p>
+                        <p>₹4,999</p>
+                    </div>
+                    <div class="total">
+                        <p>TOTAL</p>
+                        <p>₹4,999</p>
+                    </div>
+                </div>
+                <div class="pay-now">
+                    <button>Pay Now ₹4,999</button>
+                </div>
+                <div class="images">
+                    <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9928bafb-558e-4bf3-98be-58b003ab4358.png?w=100&q=50" alt="img1">
+                    <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9928bafb-558e-4bf3-98be-58b003ab4358.png?w=100&q=50" alt="img2">
+                    <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9928bafb-558e-4bf3-98be-58b003ab4358.png?w=100&q=50" alt="img3">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-text">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h1>Continue Shopping</h1>
+        </div>
+    </div>
+
+    <div class="payment-section">
+        <div class="left-payment">
+            <div class="left-heading">
+                <p>Checkout</p>
+            </div>
+            <div class="left-subheading">
+                <h1>Contact Details</h1>
+            </div>
+            <div class="input-box">
+                <p>Email ID</p>
+                <input type="text" placeholder="JohnDoe@gmail.com">
+            </div>
+
+            <div class="left-heading">
+                <h1>Payment</h1>
+            </div>
+                <div class="payment-box">
+                    <div class="row">
+                        <div class="active">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <p>Card</p>
+                        </div>
+                        <div class="type">
+                            <i class="fa-brands fa-bitcoin"></i>
+                            <p>Crypto</p>
+                        </div>
+                        <div class="type">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <p>Bank</p>
+                        </div>
+                        <div class="type">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                            <p>More</p>
+                        </div>
+                    </div>
+                    <div class="card-number">
+                        <p>Card number</p>
+                        <input type="text" placeholder="Card number">
+                    </div>
+                    <div class="card-details">
+                        <div class="expiry">
+                            <p>Expiry</p>
+                            <input type="text" placeholder="MM/YY">
+                        </div>
+                        <div class="cvv">
+                            <p>CVC</p>
+                            <input type="text" placeholder="CVC">
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="country">
+                            <p>Country</p>
+                            <input type="text" placeholder="India">
+                        </div>
+                        <div class="zip">
+                            <p>ZIP</p>
+                            <input type="text" placeholder="XXXXXX">
+                        </div>
+                    </div>
+                </div>
+            
+
+        </div>
+        <div class="right-payment">
+            <div class="right-heading">
+                <h1>Order Summary</h1>
+            </div>
+            <div class="receipt">
+                <div class="heading">
+                    <p>Enter Coupon Code</p>
+                </div>
+                <div class="coupon">
+                    <input type="text" placeholder="COUPON CODE">
+                    <button>Apply Coupon</button>
+                </div>
+                <div class="subtotal">
+                    <p>SUBTOTAL</p>
+                    <p>₹4,999</p>
+                </div>
+                <div class="subtotal">
+                    <p>SUBTOTAL</p>
+                    <p>₹4,999</p>
+                </div>
+                <div class="subtotal">
+                    <p>SUBTOTAL</p>
+                    <p>₹4,999</p>
+                </div>
+                <div class="total">
+                    <p>TOTAL</p>
+                    <p>₹4,999</p>
+                </div>
+            </div>
+            <div class="pay-now">
+                <button>Pay Now ₹4,999</button>
+            </div>
+            <div class="images">
+                <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9928bafb-558e-4bf3-98be-58b003ab4358.png?w=100&q=50" alt="img1">
+                <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9928bafb-558e-4bf3-98be-58b003ab4358.png?w=100&q=50" alt="img2">
+                <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9928bafb-558e-4bf3-98be-58b003ab4358.png?w=100&q=50" alt="img3">
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>
